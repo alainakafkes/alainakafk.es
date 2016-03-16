@@ -8,10 +8,15 @@ body {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background: none;
+	font-family: 'Montserrat', sans-serif;
+	color: #474747;
+
 }
 
 .full {
-  background: url("img/white.jpg") no-repeat center center fixed; 
+  /*background: url(http://www.designsponge.com/wp-content/uploads/2014/01/DS-screensaver1final.jpg) no-repeat center center fixed;*/
+  
+  background: url("alaina-diana.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -4,12 +4,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.font-change {
+	font-family: serif;
+}
+
 body {
   margin: 0;
 }
@@ -261,6 +265,8 @@ th {
     border: 1px solid #ddd !important;
   }
 }
+
+/* Glyphicon Here */
 @font-face {
   font-family: 'Glyphicons Halflings';
 
@@ -1082,8 +1088,10 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;

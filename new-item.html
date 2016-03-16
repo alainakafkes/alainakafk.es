@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Parse -->
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
+    <title>Add Item</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min-about.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="home.html"><img src="img/dibz-logo.png" alt="Dibz Home" style="width:30px;height:30px;"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="choice.html">Buy/Sell </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>New Item</h1>
+                </div>
+                <br>
+                <form>
+                    <p> Title </p>
+                    <input type="text" id="itemtitle" name="itemtitle">
+                    <p></p>
+                    <p>Short Description </p>
+                    <input type="text" id="itemdescription" name="itemdescription">
+                    <p></p>
+                    <p>Price </p>
+                    <input type="text" id="itemprice" name="itemprice">
+                    <p></p>
+                </form>
+                <script>
+                function dibzAway() {
+                    //alert("hello");
+
+                    Parse.initialize("uDI0VDtquHc3ytgVG5zdN9jZJMcz6m1qcB9jfTML", "bOEYfgqx2tOY0z1cAXcoLzUPqIzacY3c81AWcDs6")
+
+                    //alert("it me");
+
+                    var DibzSeller = Parse.Object.extend("DibzSeller");
+                    var dibzSeller = new DibzSeller();
+
+                    var title = document.getElementById("itemtitle").value;
+                    var description = document.getElementById("itemdescription").value;
+                    var price = document.getElementById("itemprice").value;
+                    var imageFileName = document.getElementById("fileselect").value;
+                    /*alert(title);
+
+                    alert(description);
+                    alert(price);*/
+
+                    dibzSeller.save({
+                            itemTitle: title,
+                            itemDescription: description,
+                            itemPrice: price,
+                            itemImageFake: imageFileName
+                        },
+
+                        {
+                            success: function(dibzSeller) {
+                                //alert('you did it!');
+                                window.location.assign("myitems.html");
+                            },
+
+                            error: function(dibzSeller, error) {
+                                alert('Failed to create new object, with error code: ' + error.message);
+                            }
+                        });
+                }
+                </script>
+                <script>
+                function createItem() {
+                    localStorage.setItem("title", document.getElementById("itemtitle").innerHTML);
+                    localStorage.setItem("description", document.getElementById("itemdescription").innerHTML);
+                    localStorage.setItem("price", document.getElementById("itemprice").innerHTML);
+                    localStorage.setItem("photo", document.getElementById("fileselect").value);
+                    //window.location.assign("myitems.html");
+
+                }
+                </script>
+        
+                        <input type="file" name="fileselect" id="fileselect"></input>
+                        <input onclick="dibzAway();" id="uploadbutton" type="button" value="Upload">
+
+                </script>
+                <style>
+                form {
+                    text-align: left;
+                }
+                
+                p {
+                    text-align: inherit;
+                    text-indent: 5px;
+                }
+                
+                input[type=text] {
+                    text-align: left;
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px;
+                    border: 1px solid gray;
+                    border-radius: 2px;
+                }
+                
+                input[type=file] {
+                    text-align: left;
+                    width: 50%;
+                    padding: 12px 20px;
+                    margin: 8px;
+                    border: 1px solid gray;
+                    border-radius: 2px;
+                }
+                
+                input[type=submit] {
+                    text-align: left;
+                    width: 15%;
+                    padding: 10px 10px;
+                    margin: 8px;
+                    border: 1px solid gray;
+                    border-radius: 2px;
+                    outline: none;
+                }
+                
+                input[type=button] {
+                    width: 100%;
+                    text-align: center;
+                    background-color: #d35c12;
+                    color: white;
+                    padding: 12px 20px;
+                    margin: 8px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    outline: none;
+                }
+                
+                #submitbutton:hover {
+                    background-color: #a9a9a9;
+                }
+                
+                #itembutton:hover {
+                    background-color: #fb6547;
+                }
+                </style>
+            </div>
+            <br>
+            <br>
+        </div>
+        </div>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+</body>
+
+</html>
