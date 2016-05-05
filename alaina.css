@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700,400|Sniglet|Snippet);
+
+body {
+	margin: 0px auto;
+	max-width: 100%;
+}
+
+#title {
+	/*color: #FF6956;*/
+	/*font-family: 'Roboto Slab', serif;*/
+	padding-top: 50px;
+	font-family: 'Snippet', sans-serif;
+	color: #201e1e;
+	text-align: left;
+	padding-left: 100px;
+}
+
+#name {
+	font-size: 300%;
+	/*color: #6bdf81;*/
+	color: white;
+	margin-bottom:10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+	color: white;
+}
+
+.fa:link, .fa:visited {
+	color: white;
+}
+
+.text a:link, a:visited {
+	/*color: #41ac92; */ /*base*/
+	color: black;
+}
+
+.fa:hover {
+	position: relative;
+	top: -3px;
+}
+
+.text a:hover {
+	/*text-decoration: underline;*/
+	/*color: #e3a6ce;*/ /*highlight*/
+	color: white;
+	letter-spacing: 2px;
+}
