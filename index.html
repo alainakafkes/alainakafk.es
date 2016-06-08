@@ -11,17 +11,30 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 
 	<!-- Imported Fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Snippet' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body bgcolor = "#7A81FF"> <!-- lilac: #7A81FF, skyblue: #3aaadf, gray: #6a7975 -->
-	<div id = "title">
-		<h1 id = "name">alaina kafkes</h1>
+	<script type = text/javascript>
+		function displayAbout() {
+ 			document.getElementById("aboutme").style.display = "block";
+			document.getElementById("lock").innerHTML = '<a onclick = "hideAbout()"><i class="fa fa-unlock-alt fa-3x" aria-hidden="true" style = "padding-left: 5px; padding-right:10px"></i></a>'
+		}
 
+		function hideAbout() {
+			document.getElementById("aboutme").style.display = "none";
+			document.getElementById("lock").innerHTML = '<a onclick = "displayAbout()"><i class="fa fa-lock fa-3x" aria-hidden="true" style = "padding-left: 5px; padding-right:10px"></i></a>'
+		}
+	</script>
+
+	<div id = "title">
+		<img src = "alaina.jpg" style = "max-height:250px;border-radius:16px;overflow:hidden;">
+		<h1 id = "name">alaina kafkes</h1>
 		<table>
 			<tr>
 				<div class = "social">
+					<span id = "lock"><a onclick = "displayAbout()"><i class="fa fa-lock fa-3x" aria-hidden="true" style = "padding-left: 5px; padding-right:10px"></i></a></span>
 					<a href = "https://www.linkedin.com/in/alainakafkes"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true" style = "padding-left: 5px; padding-right:10px"></i></a>
 					<a href = "https://github.com/alainakafkes"><i class="fa fa-github fa-3x" aria-hidden="true" style = "padding-right:10px"></i></a>
 					<a href = "https://twitter.com/alainakafkes"><i class="fa fa-twitter fa-3x" aria-hidden="true" style = "padding-right:10px"></i></a>
@@ -31,13 +44,13 @@
 			</tr>
 		</table>
 
-		<div class = "text">
+<!--		<div class = "text">
 			<h1 id = "cat">professionally:</h1>
 			<h2>software engineering intern at <a class = "ge" href = "http://www3.gehealthcare.com/en">ge healthcare</a></h2>
 			<h2>internal president of <a class = "wic" href = "http://eecs.northwestern.edu/wic/">northwestern women in computing</a></h2>
 			<h2>founder & lead software engineer at <a class = "dibz" href = "http://www.dibzmarket.com">dibz</a></h2>
 			<h2>previously at the <a class ="nabil" href = "http://www.thehabitslab.com/">health aware bits lab</a> & <a class = "nsf" href = "http://www.nsf.gov/">national science foundation</a></h2>
-			<!--<h2>catch me next fall doing <a class ="dtr" href = "http://dtr.northwestern.edu/">design, technology & research</a> on memes</h2>-->
+			<h2>catch me next fall doing <a class ="dtr" href = "http://dtr.northwestern.edu/">design, technology & research</a> on memes</h2>
 
 			<hr style="height:0px; margin-bottom:-7px; visibility:hidden;" />
 
@@ -47,48 +60,15 @@
 
 			<hr style="height:0px; margin-bottom:-7px; visibility:hidden;" />
 
-			<!-- <h2>parenthetically:</h2>
-			<h3>did you know [insert random fact]?</h3> -->
-		</div>
+			<h2>parenthetically:</h2>
+		</div> -->
+	</div>
+
+	<div class = "text" id = "aboutme" style="display:none; color:white; padding-top:10px">
+		summer software engineering intern at <a href = "http://www3.gehealthcare.com/en" style = "text-decoration:underline">ge healthcare</a>.
+		when at <a href = "http://www.northwestern.edu/" style = "text-decoration:underline">northwestern</a>, i run <a href = "http://eecs.northwestern.edu/wic/" style = "text-decoration:underline">women in computing</a> and code at <a href = "http://delta.northwestern.edu/" style = "text-decoration:underline">delta lab</a>.
+		i made <a href = "https://dibzmarket.com" style = "text-decoration:underline">dibz</a>. ask me about trees.
 	</div>
 </body>
-
-<!-- multicolored css -->
-<!--<style>
-	a.ge:link, a.ge:visited {
-	/*color: #79c2f9;*/
-	color: #41ac92; /*base*/
-}
-
-a.wic:link, a.wic:visited {
-	/*color: rgb(91, 59, 140);*/
-	color: #41ac92; /*base*/
-}
-
-a.dibz:link, a.dibz:visited {
-	/*color: #22ce50;*/
-	color: #41ac92; /*base*/
-}
-
-a.nabil:link, a.nabil:visited {
-	/*color: #ea4892;*/
-	color: #41ac92; /*base*/
-}
-
-a.nsf:link, a.nsf:visited {
-	/*color: #ffd833;*/
-	color: #41ac92; /*base*/
-}
-
-a.phe:link, a.phe:visited {
-	/*color: #f6810a;*/
-	color: #41ac92; /*base*/
-}
-
-a.cs:link, a.cs:visited {
-	/*color: #1edfbd;*/
-	color: #41ac92; /*base*/
-}
-</style>-->
 
 </html>
