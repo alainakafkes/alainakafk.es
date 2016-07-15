@@ -13,6 +13,7 @@ body {
 	margin-top: 60px;
 	min-height: 100%;
 	overflow: auto;
+	padding-bottom: 50px;
 }
 
 #name {
@@ -32,18 +33,6 @@ body {
 	margin-left: 25%;
 	margin-right: 25%;
 	padding-top:10px
-}
-
-#copyright {
-	font-family: 'Dosis', sans-serif;
-	color: #484649;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	text-align: center;
-	vertical-align: text-bottom;
-	overflow: hidden;
 }
 
 a {
