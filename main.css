@@ -1,0 +1,64 @@
+body {
+  margin:0;
+}
+
+#start, #end {
+  position:absolute;
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+#container {
+  position:absolute;
+  z-index:1;
+  top:50%;
+  left:50%;
+  transform:translateX(-50%) translateY(-50%);
+}
+
+#name {
+  font-family:'Bree Serif',serif;
+  font-size:520%;
+  margin:0px;
+  text-align:center;
+  padding:0px;
+  margin-bottom: -30px;
+  letter-spacing: 1px;
+}
+
+#description {
+  font-family:'Bree Serif',serif;
+  text-align:center;
+  padding-bottom:0px;
+  font-size:180%;
+}
+
+#social {
+  margin-top:-12px;
+  text-align:center;
+  font-size:125%;
+}
+
+.fa:link, .fa:visited {
+	color:black;
+}
+
+.text a:link, a:visited {
+	/*color: #41ac92; */ /*base*/
+	color:black;
+}
+
+.fa:hover {
+	position:relative;
+	top:-6px;
+}
+
+.text a:hover {
+	color: black;
+}
+
+i {
+  padding-right:10px;
+  color:black;
+}
