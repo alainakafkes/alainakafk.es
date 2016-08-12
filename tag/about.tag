@@ -1,5 +1,6 @@
 <about>
   <div id = "container-left">
+    <a href = "/#"><i class="fa fa-times" aria-hidden="true" style = "padding-bottom:25px;"></i></a>
     <h2 id = "greeting">Hi there.</h2>
     <div id = "text">
       <p class = "about">I'm Alaina, a rising CS senior at <a href = "http://www.northwestern.edu/" class = "link">Northwestern University</a>.

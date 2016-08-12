@@ -64,8 +64,11 @@ body {
 
 .about {
   font-family:'Source Sans Pro', sans-serif;
+  font-weight: 300;
   text-align:left;
   font-size: 120%;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 #text {
@@ -114,7 +117,6 @@ body {
 }
 
 .text a:link, a:visited {
-	/*color: #41ac92; */ /*base*/
 	color:black;
 }
 
