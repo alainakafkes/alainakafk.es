@@ -77,9 +77,13 @@ body {
   padding-right: 10px;
 }
 
-.link, .link a:visited {
+.link, a.link:visited {
   color: black;
   text-decoration: underline;
+}
+
+a.link:hover {
+  background-color: rgba(0,0,0,0.1);
 }
 
 ::-webkit-scrollbar {
