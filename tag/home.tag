@@ -9,7 +9,7 @@
       <a href = "https://medium.com/@alainakafkes" target = "_blank"><i class="fa fa-medium fa-3x" aria-hidden="true"></i></a>
       <a href = "https://twitter.com/alainakafkes" target = "_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
       <a href = "mailto:alainakafkes2017@u.northwestern.edu" target = "_blank"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
-      <a href = "KafkesResume.pdf" target = "_blank"><i class="fa fa-cloud-download fa-3x" aria-hidden="true" style = "padding-left: 8px;"></i></a>
+      <a href = "KafkesResume.pdf" target = "_blank"><i class="fa fa-file-text-o fa-3x" aria-hidden="true" style = "padding-left: 8px;"></i></a>
     </div>
   </div>
 </home>
