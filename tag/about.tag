@@ -11,7 +11,7 @@
 
       <p class = "about">After I graduate, I'll take a one-way flight to San Francisco to build a beautiful reading and writing experience at <a href = "https://www.medium.com" class = "link">Medium</a> as a full-stack engineer.</p>
 
-      <p class = "about">Still feeling like I'm an enigma? Check out my <a href = "" class = "link">talks</a>, <a href = "/#/shelf" class = "link">bookshelf</a> and <a href = "/#/mentions" class = "link">mentions</a> to learn more about me, and feel free to <a href = "mailto:alainakafkes@gmail.com" class = "link">beep me</a> if you want to reach me!</p>
+      <p class = "about">Still feeling like I'm an enigma? Check out my <a href = "/#/talks" class = "link">talks</a>, <a href = "/#/bookshelf" class = "link">bookshelf</a> and <a href = "/#/mentions" class = "link">mentions</a> to learn more about me, and feel free to <a href = "mailto:alainakafkes@gmail.com" class = "link">beep me</a> if you want to reach me!</p>
     </div>
   </div>
 </about>
