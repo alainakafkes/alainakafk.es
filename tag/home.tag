@@ -1,7 +1,7 @@
 <home>
   <div id = "container">
     <h1 id = "name">Alaina Kafkes</h1>
-    <h2 id = "description">health hacker && women's organizer</h2>
+    <h2 id = "description">hacking && health && humanities</h2>
     <div id = "social">
       <a href = "/#/about"><i class="fa fa-info-circle fa-3x" aria-hidden="true"></i></a>
       <a href = "https://www.linkedin.com/in/alainakafkes" target = "_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>

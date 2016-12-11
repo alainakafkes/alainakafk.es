@@ -6,30 +6,18 @@
   <link rel="icon" href="img/gem.ico" type="image/icon">
 
   <link rel = "stylesheet" type = "text/css" href = "main.css">
-  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
 </head>
 
-<body>
-  <canvas id = "start"></canvas>
+<body style = "background-color:#722349">
   <main></main>
-  <canvas id = "end"></canvas>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
-  <script>
-      var pattern = Trianglify({
-          width: window.innerWidth,
-          height: window.innerHeight,
-          cell_size: 100,
-          x_colors: "YlGnBu"
-      });
-      pattern.canvas(document.getElementById("start"))
-      pattern.canvas(document.getElementById("end"))
-  </script>
-
   <script src = "tag/main.tag" type = "riot/tag"></script>
   <script src = "tag/home.tag" type = "riot/tag"></script>
   <script src="tag/about.tag" type="riot/tag"></script>
+  <script src="tag/shelf.tag" type="riot/tag"></script>
+  <script src="tag/mentions.tag" type="riot/tag"></script>
   <script src="https://cdn.jsdelivr.net/riot/2.3.18/riot+compiler.min.js"></script>
   <script>
     riot.mount('*');
