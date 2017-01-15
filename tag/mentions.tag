@@ -3,6 +3,7 @@
     <a href = "/#/about"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true" style = "padding-bottom:25px;"></i></a>
     <h2 id = "greeting">As seen on the Internet.</h2>
     <div id = "text">
+      <p class = "about"><a href = "http://blog.codewithveni.com/women-tech-newsletter-9/" class = "link">Women in Tech Newsletter #9</a>, Code With Veni. 14 January 2017.</p>
       <p class = "about"><a href = "https://medium.com/@nu_buildher/why-buildher-our-purpose-mission-8cc8f967cd22#.nu42xdc4z" class = "link">Why BuildHer: Our Purpose & Mission</a>, BuildHer Hackathon. 21 November 2016.</p>
       <p class = "about"><a href = "http://www.usnews.com/news/stem-solutions/articles/2016-10-18/grace-hopper-conference-spotlights-women-in-tech" class = "link">Grace Hopper Conference Spotlights Women in Tech</a>, U.S. News & World Report. 18 October 2016.</p>
       <p class = "about"><a href = "https://issuu.com/nafelosangeles/docs/e_magazine_ag-2016_volume_26__ver_1/175" class = "link">Women in Computing Take On Summer Internships and Learn New Skills</a>, Female Executive Magazine. 5 September 2016.</p>
