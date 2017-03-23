@@ -74,6 +74,28 @@ body {
   margin-top: 0px;
 }
 
+.talk {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-family:'Source Sans Pro', serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 150%;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.more {
+  font-family: 'Source Sans Pro', serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 125%;
+  padding: 0px;
+  margin: 0px;
+}
+
 #text {
   color: white;
   overflow-y: scroll;
