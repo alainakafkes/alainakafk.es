@@ -3,6 +3,7 @@
     <a href = "/#/about"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true" style = "padding-bottom:25px;"></i></a>
     <h2 id = "greeting">As seen on the Internet.</h2>
     <div id = "text">
+      <p class = "about"><a href = "https://drive.google.com/file/d/0B6u-8RENeRzFSVhydlNIeXg0S2M/view" class = "link">BuildHer Hackathon Becomes Chicago's First-Ever [Student-Run] Female Hackathon</a>, UNTOUCHD Magazine. 18 April 2017.</p>
       <p class = "about"><a href = "http://www.northbynorthwestern.com/story/24-hour-hack-a-thon/" class = "link">NU hosts Chicago's first ever female, student-run hackathon</a>, North by Northwestern. 9 April 2017.</p>
       <p class = "about"><a href = "https://medium.com/the-northwestern-business-review/buildher-building-an-inclusive-environment-for-women-in-tech-8f0c99007124" class = "link">BuildHer: An Inclusive Environment for Women in Tech</a>, Northwestern Business Review. 5 April 2017.</p>
       <p class = "about"><a href = "http://blog.codewithveni.com/women-tech-newsletter-9/" class = "link">Women in Tech Newsletter #9</a>, Code With Veni. 14 January 2017.</p>
