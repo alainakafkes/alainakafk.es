@@ -1,7 +1,7 @@
 <home>
   <div id = "container">
     <h1 id = "name">Alaina Kafkes</h1>
-    <h2 id = "description"><a href = "/#/about" class = "link">about</a> // <a href = "/#/words" class = "link">write</a> // <a href = "/#/talks" class = "link">speak</a> // <a href = "/#/mentions" class = "link">press</a></h2>
+    <h2 id = "description"><a href = "/#/about" class = "link">about</a> &nbsp; <a href = "/#/code" class = "link">code</a> &nbsp; <a href = "/#/words" class = "link">write</a> &nbsp; <a href = "/#/talks" class = "link">speak</a> &nbsp; <a href = "/#/mentions" class = "link">press</a></h2>
     <div id = "social">
       <a href = "https://www.linkedin.com/in/alainakafkes" target = "_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
       <a href = "https://github.com/alainakafkes" target = "_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
