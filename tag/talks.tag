@@ -30,4 +30,14 @@
       </div>
     </div>
   </div>
+  <footer class="footer">
+    <div id = "social">
+      <a href = "https://www.linkedin.com/in/alainakafkes" target = "_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      <a href = "https://github.com/alainakafkes" target = "_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a href = "https://medium.com/@alainakafkes" target = "_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+      <a href = "https://twitter.com/alainakafkes" target = "_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+      <a href = "mailto:alainakafkes2017@u.northwestern.edu" target = "_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+      <!-- <a href = "KafkesResume.pdf" target = "_blank"><i class="fa fa-file-text-o fa-3x" aria-hidden="true" style = "padding-left: 8px;"></i></a> -->
+    </div>
+  </footer>
 </talks>
