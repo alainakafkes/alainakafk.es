@@ -3,13 +3,15 @@
   <about show={view.about}></about>
   <mentions show={view.mentions}></mentions>
   <talks show={view.talks}></talks>
+  <words show={view.words}></words>
 
   <script type = "text/javascript">
     this.view = {
       home: true,
       about: false,
       mentions: false,
-      talks: false
+      talks: false,
+      words: false
     }
   </script>
   <script type = "text/javascript">
@@ -18,6 +20,7 @@
       r('/about', function () { viewswitch('about') })
       r('/mentions', function () { viewswitch('mentions') })
       r('/talks', function () { viewswitch('talks') })
+      r('/words', function () { viewswitch('words') })
 
       var self = this
 

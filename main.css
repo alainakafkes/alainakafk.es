@@ -37,8 +37,8 @@ body {
 
 #name {
   font-family:'Source Sans Pro', sans-serif;
-  font-size:590%;
-  color: white;
+  font-size:550%;
+  color: #3498db;
   margin:0px;
   text-align:center;
   padding:0px;
@@ -50,7 +50,7 @@ body {
 
 #description {
   font-family:'Source Sans Pro', sans-serif;
-  color: white;
+  color: black;
   text-align:center;
   padding-bottom:0px;
   font-size:210%;
@@ -58,10 +58,10 @@ body {
 
 #greeting {
   font-family:'Source Sans Pro', sans-serif;
-  color: white;
+  color: black;
   text-align:left;
   padding-bottom:0px;
-  font-size:200%;
+  font-size:250%;
   line-height: 10px;
 }
 
@@ -80,32 +80,33 @@ body {
 
 .title {
   font-family:'Source Sans Pro', serif;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
-  font-size: 150%;
+  font-size: 175%;
   padding-top: 0px;
   margin: 0px;
+  color: #3498db;
 }
 
 .more {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
   text-align: left;
-  font-size: 125%;
+  font-size: 150%;
   padding: 0px;
   margin: 0px;
 }
 
 #text {
-  color: white;
+  color: black;
   overflow-y: scroll;
-  height: 500px;
-  width: 700px;
+  height: 400px;
+  width: 670px;
   padding-right: 10px;
 }
 
 #shelftext {
-  color: white;
+  color: black;
   height: 300px;
   width: 650px;
   padding-right: 10px;
@@ -122,13 +123,14 @@ body {
 }
 
 .link, a.link:visited {
-  color: white;
+  color: black;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.link:hover {
-  background-color: rgba(0,0,0,0.3);
+  /*background-color: rgba(0,0,0,0.3);*/
+  text-decoration: underline;
 }
 
 ::-webkit-scrollbar {
@@ -145,7 +147,7 @@ a.link:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    visibility: hidden;
+    visibility: visible;
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
@@ -162,11 +164,11 @@ a.link:hover {
 }
 
 .fa:link, .fa:visited {
-	color:white;
+	color:black;
 }
 
 .text a:link, a:visited {
-	color:white;
+	color:black;
 }
 
 @-webkit-keyframes hvr-icon-pulse-grow {
@@ -207,6 +209,6 @@ a.link:hover {
 i {
   padding-right:62px;
   padding-bottom:55px;
-  color:white;
+  color:#7f8c8d;
   text-align: center;
 }
