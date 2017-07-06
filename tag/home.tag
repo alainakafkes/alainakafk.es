@@ -1,6 +1,5 @@
 <home>
   <div id = "container">
-    <h1 id = "name">Alaina Kafkes</h1>
-    <h2 id = "nav"><a href = "/#/about" class = "link">about</a> &nbsp; <a href = "/#/code" class = "link">code</a> &nbsp; <a href = "/#/words" class = "link">write</a> &nbsp; <a href = "/#/talks" class = "link">speak</a> &nbsp; <a href = "/#/mentions" class = "link">press</a></h2>
+    <h1 id = "name"><span id = "pop">Alaina Kafkes</span> is a software engineer, technical writer, and speaker.</h1>
   </div>
 </home>

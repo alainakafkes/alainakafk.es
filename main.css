@@ -4,8 +4,8 @@ body {
 }
 
 #container {
-  min-height: calc(100vh - 70px);
-  padding: 100px 100px 0px 100px;
+  /*min-height: calc(100vh - 70px);*/
+  padding: 100px 50px 100px 100px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -14,8 +14,8 @@ body {
 }
 
 #container-left {
-  min-height: calc(100vh - 70px);
-  padding: 75px 100px 75px 100px;
+  /*min-height: calc(100vh - 70px);*/
+  padding: 0px 100px 75px 100px;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
@@ -23,17 +23,15 @@ body {
         animation: fadein 2s;
 }
 
-.footer {
-  height: 50px;
-  padding: 10px 0px 10px 0px;
+#pop {
+  color: #e74c3c;
 }
 
 #name {
   font-family:'Source Sans Pro', sans-serif;
   font-size:550%;
-  color: #e74c3c;
   margin:0px;
-  text-align:center;
+  text-align:left;
   padding:0px;
   margin-bottom: -30px;
   letter-spacing: 1px;
@@ -44,9 +42,10 @@ body {
 #nav {
   font-family:'Source Sans Pro', sans-serif;
   color: black;
-  text-align:center;
-  padding-bottom:0px;
-  font-size:210%;
+  padding-bottom:-10px;
+  font-size:150%;
+  text-align:right;
+  padding: 0px 100px 0px 100px;
 }
 
 #greeting {
@@ -54,7 +53,7 @@ body {
   color: black;
   text-align:left;
   padding-bottom:0px;
-  font-size:250%;
+  font-size:350%;
   line-height: 100%;
 }
 
@@ -62,7 +61,7 @@ body {
   font-family:'Source Sans Pro', serif;
   font-weight: 300;
   text-align:left;
-  font-size: 150%;
+  font-size: 200%;
   padding-top: 0px;
   margin-top: 0px;
 }
@@ -75,7 +74,7 @@ body {
   font-family:'Source Sans Pro', serif;
   font-weight: 400;
   text-align: left;
-  font-size: 175%;
+  font-size: 250%;
   padding-top: 0px;
   margin: 0px;
   color: #e74c3c;
@@ -85,7 +84,7 @@ body {
   font-family: 'Source Sans Pro', serif;
   font-weight: 300;
   text-align: left;
-  font-size: 150%;
+  font-size: 200%;
   padding: 0px;
   margin: 0px;
 }
@@ -111,11 +110,26 @@ a.link:hover {
   text-decoration: underline;
 }
 
+.special-link, a.special-link:visited {
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  border: 4px solid black;
+  background: black;
+  padding: 0px 6px 2px 6px;
+  border-radius: 5px;
+}
+
+a.special-link:hover {
+  /*background-color: rgba(0,0,0,0.3);*/
+  text-decoration: none;
+  background: #e74c3c;
+  border: 4px solid #e74c3c;
+}
+
 #social {
-  margin-top:-12px;
-  padding-right: 10px;
   text-align:center;
-  font-size:125%;
+  font-size:150%;
 }
 
 .fa:link, .fa:visited {
@@ -162,9 +176,8 @@ a.link:hover {
 }
 
 i {
-  padding-right:62px;
-  padding-bottom:55px;
-  color:#7f8c8d;
+  padding: 100px 75px 0px 0px;
+  color: black;
   text-align: center;
 }
 

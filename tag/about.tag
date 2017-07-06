@@ -1,6 +1,5 @@
 <about>
   <div id = "container-left">
-    <a href = "/#"><i class="fa fa-angle-double-left fa-2x" aria-hidden="true" style = "padding-bottom:25px;"></i></a>
     <h2 id = "greeting">Who am I? 24601!</h2>
     <div id = "text">
       <p class = "title">TL;DR</p>
@@ -13,14 +12,4 @@
       <p class = "about">Want to learn more? Poke around my personal website and don't hesitate to call me, <a href = "mailto:alainakafkes@gmail.com" class = "link">beep me</a> if you want to reach me!</p>
     </div>
   </div>
-  <footer class="footer">
-    <div id = "social">
-      <a href = "https://www.linkedin.com/in/alainakafkes" target = "_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-      <a href = "https://github.com/alainakafkes" target = "_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-      <a href = "https://medium.com/@alainakafkes" target = "_blank"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
-      <a href = "https://twitter.com/alainakafkes" target = "_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-      <a href = "mailto:alainakafkes2017@u.northwestern.edu" target = "_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-      <!-- <a href = "KafkesResume.pdf" target = "_blank"><i class="fa fa-file-text-o fa-3x" aria-hidden="true" style = "padding-left: 8px;"></i></a> -->
-    </div>
-  </footer>
 </about>

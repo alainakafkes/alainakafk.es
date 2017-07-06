@@ -5,6 +5,7 @@
   <talks show={view.talks}></talks>
   <words show={view.words}></words>
   <code show={view.code}></code>
+  <connect show={view.connect}></connect>
 
   <script type = "text/javascript">
     this.view = {
@@ -13,7 +14,8 @@
       mentions: false,
       talks: false,
       words: false,
-      code: false
+      code: false,
+      connect: false
     }
   </script>
   <script type = "text/javascript">
@@ -24,6 +26,7 @@
       r('/talks', function () { viewswitch('talks') })
       r('/words', function () { viewswitch('words') })
       r('/code', function () { viewswitch('code') })
+      r('/connect', function () { viewswitch('connect') })
 
       var self = this
 
