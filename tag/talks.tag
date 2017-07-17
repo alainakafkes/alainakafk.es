@@ -3,6 +3,10 @@
     <h2 id = "greeting">Talking nerdy.</h2>
     <div id = "text">
       <div class = "talk">
+        <p class = "title">On Literature & Linked Lists: How Reading Books Can Make You a Better Engineer</p>
+        <p class = "more"><a href = "https://wafflejs.com/?day=2017-09-06" class = "link">WaffleJS</a> (September 2017)</p>
+      </div>
+      <div class = "talk">
         <p class = "title">Build Her Up: On Supporting University Women in Tech</p>
         <p class = "more"><a href = "https://werise.tech/" class = "link">WeRiseConf</a> (June 2017)</p>
         <p class = "more"><a href = "http://selfconference.org/sessions" class = "link">Self.Conference</a> (May 2017)</p>
