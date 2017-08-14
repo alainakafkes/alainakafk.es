@@ -3,6 +3,10 @@
     <h2 id = "greeting">Let's get lit(erate).</h2>
     <div id = "text">
       <div class = "talk">
+        <p class = "title">Chronicles of a Junior Dev</p>
+        <p class = "more"><a href = "https://alainakafkes.github.io/chronicles/2017/08/14/welcome.html" class = "link">Welcome to the Chronicles</a> (and <a href = "https://alainakafkes.github.io/chronicles/" class = "link">more posts</a>!)</p>
+      </div>
+      <div class = "talk">
         <p class = "title">Straight Up Tech</p>
         <p class = "more"><a href = "https://medium.freecodecamp.org/searching-for-your-goldilocks-issue-f23b3a718de" class = "link">How to Find Your Open Source Goldilocks Zone</a></p>
         <p class = "more"><a href = "https://dev.to/alainakafkes/demystifying-dynamic-programming" class = "link">Demystifying Dynamic Programming</a></p>
@@ -13,10 +17,6 @@
         <p class = "more"><a href = "https://medium.com/@alainakafkes/on-literature-linked-lists-6730308a0d81" class = "link">On Literature & Linked Lists</a></p>
         <p class = "more"><a href = "https://medium.freecodecamp.com/lessons-learned-from-leading-women-in-tech-organizations-37eca542b2a5" class = "link">Lessons Learned from Leading Women in Tech Organizations</a></p>
         <p class = "more"><a href = "https://medium.com/clarifai-champions/my-dive-into-developer-evangelism-clarifai-champions-in-review-b4b8591970c3" class = "link">My Deep Dive into Developer Evangelism</a></p>
-      </div>
-      <div class = "talk">
-        <p class = "title">Chronicles of a Junior Dev</p>
-        <p class = "more">Coming soon!</p>
       </div>
       <div class = "talk">
         <p class = "title">Prose Experiments</p>
