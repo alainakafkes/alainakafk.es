@@ -14,6 +14,7 @@
       </div>
       <div class = "talk">
         <p class = "title">Personal (But Still Technical!)</p>
+        <p class = "more"><a href = "https://dev.to/alainakafkes/tackling-technical-writing" class = "link">Tackling Technical Writing</a></p>
         <p class = "more"><a href = "https://medium.com/@alainakafkes/on-literature-linked-lists-6730308a0d81" class = "link">On Literature & Linked Lists</a></p>
         <p class = "more"><a href = "https://medium.freecodecamp.com/lessons-learned-from-leading-women-in-tech-organizations-37eca542b2a5" class = "link">Lessons Learned from Leading Women in Tech Organizations</a></p>
         <p class = "more"><a href = "https://medium.com/clarifai-champions/my-dive-into-developer-evangelism-clarifai-champions-in-review-b4b8591970c3" class = "link">My Deep Dive into Developer Evangelism</a></p>
