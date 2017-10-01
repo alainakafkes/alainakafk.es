@@ -8,6 +8,7 @@
       </div>
       <div class = "talk">
         <p class = "title">Straight Up Tech</p>
+        <p class = "more"><a href = "https://www.twilio.com/blog/2017/09/send-text-messages-golang.html" class = "link">So It Goes: Sending SMS with Golang</a></p>
         <p class = "more"><a href = "https://medium.freecodecamp.org/searching-for-your-goldilocks-issue-f23b3a718de" class = "link">How to Find Your Open Source Goldilocks Zone</a></p>
         <p class = "more"><a href = "https://dev.to/alainakafkes/demystifying-dynamic-programming" class = "link">Demystifying Dynamic Programming</a></p>
         <p class = "more"><a href = "https://medium.com/clarifai-champions/99-pr-oblems-a-beginners-guide-to-open-source-abc1b867385a" class = "link">99 [PR]oblems: A Beginner's Guide to Open Source</a></p>
