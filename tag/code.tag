@@ -23,7 +23,7 @@
         <p class = "more"><a href = "https://github.com/alainakafkes/twilio-sms-tutorial" class = "link">Sending SMS with Twilio & Golang</a></p>
         <p class = "more"><a href = "https://github.com/alainakafkes/pommunism" class = "link">Intro to APIs via Pommunism Twitter Bot</a></p>
       </div>
-      <p class ="more">Want to see more of my code? <a href = "https://github.com/alainakafkes" class = "link">Follow me on GitHub!</a></p>
+      <p class ="more">Want to see more of my code? Follow me on <a href = "https://github.com/alainakafkes" class = "link">GitHub</a>!</p>
     </div>
   </div>
 </code>

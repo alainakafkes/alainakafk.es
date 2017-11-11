@@ -3,7 +3,12 @@
     <h2 id = "greeting">Talking nerdy.</h2>
     <div id = "text">
       <div class = "talk">
+        <p class = "title">Building Beginner-Friendly API Tutorials</p>
+        <p class = "more"><a href = "http://apithedocs.org/amsterdam/" class = "link">API the Docs Amsterdam</a> (December 2017)</p>
+      </div>
+      <div class = "talk">
         <p class = "title">Ten Tips for Tackling Technical Writing</p>
+        <p class = "more"><a href = "https://www.meetup.com/WriteSpeakCode-SFBay/events/242556478/" class = "link">Write/Speak/Code SF</a> (November 2017)</p>
         <p class = "more"><a href = "http://www.womenwhogo.org/" class = "link">Women Who Go SF</a> (October 2017)</p>
       </div>
       <div class = "talk">
@@ -35,6 +40,7 @@
         <p class = "title">Introduction to APIs & Build Your Own Twitter Bot</p>
         <p class = "more"><a href = "https://www.youtube.com/watch?v=q3I4LreKcR0" class = "link">YouTube</a> (September 2016)</p>
       </div>
+      <p class ="more">Want me to speak at your event? Shoot me an <a href = "mailto:alainakafkes@gmail.com" class = "link">email</a>!</p>
     </div>
   </div>
 </talks>
