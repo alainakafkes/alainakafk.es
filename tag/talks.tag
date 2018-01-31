@@ -3,13 +3,15 @@
     <h2 id = "greeting">Talking nerdy.</h2>
     <div id = "text">
       <div class = "talk">
-        <p class = "title">Building Beginner-Friendly API Tutorials</p>
-        <p class = "more"><a href = "http://apithedocs.org/amsterdam/" class = "link">API the Docs Amsterdam</a> (December 2017)</p>
-      </div>
-      <div class = "talk">
-        <p class = "title">Ten Tips for Tackling Technical Writing</p>
+        <p class = "title">Tackling Technical Writing</p>
+        <p class = "more"><a href = "https://www.rubyconf.org.au/2018/speakers" class = "link">RubyConf AU</a> (March 2018)</p>
+        <p class = "more"><a href = "http://indexconf.org" class = "link">Index Developer Conference</a> (February 2018)</p>
         <p class = "more"><a href = "https://www.meetup.com/WriteSpeakCode-SFBay/events/242556478/" class = "link">Write/Speak/Code SF</a> (November 2017)</p>
         <p class = "more"><a href = "http://www.womenwhogo.org/" class = "link">Women Who Go SF</a> (October 2017)</p>
+      </div>
+      <div class = "talk">
+        <p class = "title">Building Beginner-Friendly API Tutorials</p>
+        <p class = "more"><a href = "http://apithedocs.org/amsterdam/" class = "link">API the Docs Amsterdam</a> (December 2017)</p>
       </div>
       <div class = "talk">
         <p class = "title">On Literature & Linked Lists: How Reading Books Can Make You a Better Engineer</p>
